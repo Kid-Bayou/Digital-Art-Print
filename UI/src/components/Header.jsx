@@ -7,36 +7,28 @@ import cart from "../assets/cart.png";
 function Header() {
   return (
     <>
-      <header>
-        <div className="header-logo-container">
-          <Link className="site-logo" to="/">
-            <img src={logo} className="logo" />
-            <p className="logo-name">Digital Prints</p>
-          </Link>
-        </div>
+      <header className="header">
+        <Link className="header-logo-container" to="/">
+          <img src={logo} className="logo" />
+          <p className="logo-name">Digital Prints</p>
+        </Link>
 
-        <div className="header-center-nav-container">
-
-          <nav className="nav">
-            <NavLink to="/courses">Home</NavLink>
-            <NavLink to="/courses">Gallery</NavLink>
-            <NavLink to="/about">Blog</NavLink>
-          </nav>
-
-        </div>
+        <nav className="header-center-nav-container">
+          <NavLink className="center-nav" to="/courses">Home</NavLink>
+          <NavLink className="center-nav" to="/courses">Gallery</NavLink>
+          <NavLink className="center-nav" to="/about">Blog</NavLink>
+        </nav>
 
         <div className="header-end-nav-container">
-
-          <Link className="site-logo" to="/">
-            <img src={search} className="logo" />
+          <Link className="nav-img-link" to="/">
+            <img src={search} className="nav-img-search" />
           </Link>
-          <Link className="site-logo" to="/">
-            <img src={wishlist} className="logo" />
+          <Link className="nav-img-link" to="/">
+            <img src={wishlist} className="nav-img-wishlist" />
           </Link>
-          <Link className="site-logo" to="/">
-            <img src={cart} className="logo" />
+          <Link className="nav-img-link" to="/">
+            <img src={cart} className="nav-img-cart" />
           </Link>
-
         </div>
       </header>
     </>

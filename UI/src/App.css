@@ -13,7 +13,66 @@
 }
 
 body, html {
-  font-family: "Tinos", serif;
+font-family: 'Quicksand', sans-serif;
   /** font-family: "Elsie Swash Caps", cursive; **/
-  background-color: #ede7e2;
+  background-color: #dfe2db;
+}
+
+/** ~~~~~~~~~~~~~   HEADER  ~~~~~~~~~~~~~~**/
+/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ **/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-center-nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  margin-left: -140px;
+}
+
+.header-end-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.logo {
+  height: 60px;
+  padding-right: 10px;
+}
+
+.nav-img-search {
+  height: 23px;
+}
+
+.nav-img-wishlist{
+  height: 30px;
+}
+
+.nav-img-cart{
+  height: 30px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo-name {
+  font-size: 35px;
+}
+
+.center-nav {
+  font-size: 20px;
 }
