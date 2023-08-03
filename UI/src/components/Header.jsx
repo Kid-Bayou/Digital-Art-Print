@@ -16,7 +16,7 @@ function Header() {
         <nav className="header-center-nav-container">
           <NavLink className="center-nav" to="/courses">Home</NavLink>
           <NavLink className="center-nav" to="/courses">Gallery</NavLink>
-          <NavLink className="center-nav" to="/about">Blog</NavLink>
+          <NavLink className="center-nav" to="/about">About</NavLink>
         </nav>
 
         <div className="header-end-nav-container">
