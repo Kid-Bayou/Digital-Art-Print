@@ -1,5 +1,7 @@
 #root {
   text-align: center;
+  --darkgreen: #0a150e;
+  --greenwhite: #dfe2db;
 }
 
 .logo {
@@ -12,7 +14,7 @@
 body {
   font-family: "Quicksand", sans-serif;
   /** font-family: "Elsie Swash Caps", cursive; **/
-  background-color: #dfe2db;
+  background-color: var(--greenwhite);
   margin: 0;
   padding: 0;
 }
@@ -93,7 +95,7 @@ body {
 /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ **/
 
 .footer {
-  background-color: #0a150e;
+  background-color: var(--darkgreen);
   height: auto;
   display: flex;
   flex-direction: column;
@@ -105,21 +107,74 @@ body {
   margin: 0;
 }
 
+.footer-content-conatiner {
+  display: flex;
+  justify-content: space-around;
+  color: var(--greenwhite);
+  width: 95vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-logo-img {
+  background-color: var(--greenwhite);
+  height: 70px;
+  border-top: solid var(--greenwhite) 3px;
+  border-bottom: solid var(--greenwhite) 3px;
+  margin-top: 40px;
+}
+
+.footer-logo-text {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.footer-explore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-header{
+  font-size: 20px;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: var(--greenwhite);
+}
+
+.line {
+  width: 95vw;
+}
+
 .social-img-container {
   position: relative;
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
+  margin: 50px;
+  margin-bottom: 20px;
 }
 
 .social-img {
   height: 40px;
   border-radius: 50%;
-  background-color: #dfe2db;
-  border: solid #dfe2db 2px;
+  background-color: var(--greenwhite);
+  border: solid var(--greenwhite) 2px;
 }
 
-.footer-content-conatiner {
-  display: relative;
-  color: #dfe2db;
+
+.copyright-container {
+  color: var(--greenwhite);
+  margin-bottom: 60px;
 }
+
