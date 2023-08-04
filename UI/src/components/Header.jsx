@@ -14,8 +14,8 @@ function Header() {
         </Link>
 
         <nav className="header-center-nav-container">
-          <NavLink className="center-nav" to="/courses">Home</NavLink>
-          <NavLink className="center-nav" to="/courses">Gallery</NavLink>
+          <NavLink className="center-nav" to="/">Home</NavLink>
+          <NavLink className="center-nav" to="/gallery">Gallery</NavLink>
           <NavLink className="center-nav" to="/about">About</NavLink>
         </nav>
 
@@ -23,10 +23,10 @@ function Header() {
           <Link className="nav-img-link" to="/">
             <img src={search} className="nav-img-search" />
           </Link>
-          <Link className="nav-img-link" to="/">
+          <Link className="nav-img-link" to="/wishlist">
             <img src={wishlist} className="nav-img-wishlist" />
           </Link>
-          <Link className="nav-img-link" to="/">
+          <Link className="nav-img-link" to="/cart">
             <img src={cart} className="nav-img-cart" />
           </Link>
         </div>
