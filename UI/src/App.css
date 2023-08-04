@@ -98,9 +98,10 @@ html, body {
 
 .home-header-main {
   font-family: "Elsie Swash Caps", cursive;
-  font-size: 8vw;
+  font-size: 10vw;
   margin-top: 130px;
   margin-bottom: 30px;
+  
 }
 
 .home-line {
@@ -123,6 +124,7 @@ position: relative;
 .flower-img-container {
   border: solid black 3px;
   padding-bottom: -5px;
+  box-shadow: rgba(57, 56, 2, 0.56) 0px 22px 70px 4px;
 }
 
 .flower-img {
