@@ -1,7 +1,7 @@
 #root {
   text-align: center;
   --darkgreen: #0a150e;
-  --greenwhite: #dfe2db;
+  --greenwhite: #eeebdc;
 }
 
 .logo {
@@ -11,10 +11,10 @@
   transition: filter 300ms;
 }
 
-body {
+html, body {
   font-family: "Quicksand", sans-serif;
   /** font-family: "Elsie Swash Caps", cursive; **/
-  background-color: var(--greenwhite);
+  background-color: #eeebdc;
   margin: 0;
   padding: 0;
 }
@@ -90,6 +90,69 @@ body {
 .center-nav {
   font-size: 20px;
 }
+
+
+
+/** ~~~~~~~~~~~~~   HEADER  ~~~~~~~~~~~~~~**/
+/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ **/
+
+.home-header-main {
+  font-family: "Elsie Swash Caps", cursive;
+  font-size: 8vw;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+.home-line {
+  width: 75vw;
+  height: 2.5px;
+  color: black;
+  background-color: black;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.container-container {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 100px;
+position: relative;
+}
+
+.flower-img-container {
+  border: solid black 3px;
+  padding-bottom: -5px;
+}
+
+.flower-img {
+  height: 50vw;
+  padding: 0;
+  margin: 0;
+}
+
+.home-header {
+  position: absolute;
+  font-family: "Elsie Swash Caps", cursive;
+  font-size: 7vw;
+}
+
+.first{
+  top: 1vw;
+  left: 5vw;
+}
+
+.second{
+  top: 15vw;
+  left: 25vw;
+}
+
+.third{
+  top: 29vw;
+  left: 50vw;
+}
+
+
 
 /** ~~~~~~~~~~~~~~~  FOOTER  ~~~~~~~~~~~~~~ */
 /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ **/
